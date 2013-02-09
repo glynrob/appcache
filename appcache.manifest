@@ -1,0 +1,19 @@
+CACHE MANIFEST
+# 2013-02-08:v1
+
+# list all resources that are to be cached
+CACHE:
+index.html
+working.html
+default.css
+images/me.png
+custom.js
+
+# list all resources that require internet connection
+NETWORK:
+# Could list individul pages to require to be online here if you wished ie: notavailable.html
+
+# list all fallback resources for anything that requires an internet connection
+FALLBACK:
+images/online.jpg images/offline.jpg
+notavailable.html offline.html

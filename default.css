@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+html, body { height: 100%; width: 100%; margin: 0; }
+body{
+	font:14px Arial, Helvetica, sans-serif;
+	background:#CBF1FE;
+	color:#444444;
+}
+.menu{
+	background-color:#666666;
+	text-align:center;
+	padding:10px 0;
+}
+.menu li{
+	display:inline-block;
+	margin:0px 5px 8px;
+}
+.menu a{
+	color:#FFFFFF;
+	font-size:16px;
+	text-decoration:none;
+}
+.menu a:hover{
+	color:#CCCCCC;
+}
